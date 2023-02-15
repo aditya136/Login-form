@@ -6,7 +6,7 @@
 .container {
     color: black;
     min-height: 100vh;
-    border: 7px solid #ecda074a;
+    border: 12px solid #ecda074a;
     background-color: #090909;
 }
 .container h1 {
@@ -14,6 +14,7 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
     color: white;
+    margin-top: 10px;
 }
 form h2 {
     font-size: 20px;
@@ -47,6 +48,7 @@ input {
     width: 100%;
     min-height: 2em;
     color: #1b1b32;
+    border-radius: 4px;
 }
 fieldset h3, h4 {
     font-size: 20px;
@@ -69,4 +71,23 @@ input[type="file"] {
     padding: 1px 2px;
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+input[type="submit"] {
+    padding: 6px;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;;
+    font-weight: bolder;
+    margin-left: 160px;
+    margin-right: auto;
+    font-size: 17px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px white;
+}
+h5 {
+    font-size: 15px;
+    font-family: serif;
+    margin-top: 9px;
+    margin-bottom: auto;
 }
